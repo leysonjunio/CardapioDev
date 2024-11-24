@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cardápio Digital</title>
+</head>
+<body>
+    <div id="login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <!-- Página de Produtos-->
+    <div id="products" style="display: none;">
+        <h1>Cardápio</h1>
+        <div class="product-list">
+            <!--Produtos serão exibidos aqui-->
+        </div>
+        <button id="logout">Sair</button>
+    </div>
+    <!--Página de Admin-->
+    <div id="admin" style="display: none;">
+        <h1>Painel do Admin</h1>
+
+        <!--Gerenciamento de produtos-->
+    </div>
+    <script src="./js/script.js"></script>    
+</body>
+</html>
