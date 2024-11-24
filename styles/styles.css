@@ -50,3 +50,23 @@ button:hover{
     width: 200px;
     text-align: center;
 }
+#admin{
+    padding: 20px;
+}
+section{
+    margin: 20px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+form input, form button{
+    margin: 10px 0;
+}
+#product-list, #coupon-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
