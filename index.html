@@ -33,6 +33,41 @@
         <h1>Painel do Admin</h1>
 
         <!--Gerenciamento de produtos-->
+        <section id="manage-products">
+            <h2>Gerenciar Produtos</h2>
+            <form id="add-product-form">
+                <label for="product-name">Nome do Produto:</label>
+                <input type="text" id="product-name" required>
+
+                <label for="product-price">Preço:</label>
+                <input type="number" id="product-price" required>
+
+                <label for="product-image">Imagem (URL):</label>
+                <input type="url" id="product-image" required>
+
+                <button type="submit">Adicionar Produto</button>
+            </form>
+
+            <h3>Lista de Produtos:</h3>
+            <div id="product-list"></div>
+        </section>
+        <!--Gerenciamento de Cupons-->
+        <section id="manage-coupons">
+            <h2>Gerenciar Cupons</h2>
+            <form id="add-coupon-form">
+                <label for="coupon-code">Código do Cupom:</label>
+                <input type="text" id="coupon-code" required>
+
+                <label for="coupon-discount">Desconto (%):</label>
+                <input type="number" id="coupon-discount" required>
+
+                <button type="submit">Adicionar Cupom</button>
+            </form>
+            <h3>Lista de Cupons:</h3>
+            <div id="coupon-list"></div>
+        </section>
+
+        <button id="logout-admin">Sair</button>
     </div>
     <script src="./js/script.js"></script>    
 </body>
